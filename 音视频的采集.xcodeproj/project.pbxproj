@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193CD39D1FCBAD8E00351364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CD39C1FCBAD8E00351364 /* AppDelegate.swift */; };
+		193CD39F1FCBAD8E00351364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CD39E1FCBAD8E00351364 /* ViewController.swift */; };
+		193CD3A21FCBAD8E00351364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193CD3A01FCBAD8E00351364 /* Main.storyboard */; };
+		193CD3A41FCBAD8E00351364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193CD3A31FCBAD8E00351364 /* Assets.xcassets */; };
+		193CD3A71FCBAD8E00351364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193CD3A51FCBAD8E00351364 /* LaunchScreen.storyboard */; };
+		196710591FCD4D4900297993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196710581FCD4D4900297993 /* AppDelegate.swift */; };
+		1967105B1FCD4D4900297993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967105A1FCD4D4900297993 /* ViewController.swift */; };
+		1967105E1FCD4D4900297993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1967105C1FCD4D4900297993 /* Main.storyboard */; };
+		196710601FCD4D4900297993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1967105F1FCD4D4900297993 /* Assets.xcassets */; };
+		196710631FCD4D4900297993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196710611FCD4D4900297993 /* LaunchScreen.storyboard */; };
+		1967106F1FCD508200297993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967106E1FCD508200297993 /* AppDelegate.swift */; };
+		196710711FCD508200297993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196710701FCD508200297993 /* ViewController.swift */; };
+		196710741FCD508200297993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196710721FCD508200297993 /* Main.storyboard */; };
+		196710761FCD508200297993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196710751FCD508200297993 /* Assets.xcassets */; };
+		196710791FCD508200297993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196710771FCD508200297993 /* LaunchScreen.storyboard */; };
+		196710851FCD566E00297993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196710841FCD566E00297993 /* AppDelegate.swift */; };
+		196710871FCD566E00297993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196710861FCD566E00297993 /* ViewController.swift */; };
+		1967108A1FCD566E00297993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196710881FCD566E00297993 /* Main.storyboard */; };
+		1967108C1FCD566E00297993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1967108B1FCD566E00297993 /* Assets.xcassets */; };
+		1967108F1FCD566E00297993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1967108D1FCD566E00297993 /* LaunchScreen.storyboard */; };
+		761EAA37298A44467360CE03 /* Pods_GPUImage____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1043DBB85FAD5254B006ED9D /* Pods_GPUImage____.framework */; };
+		8FAB5672E8830467E780B34C /* Pods_GPUImage____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1043DBB85FAD5254B006ED9D /* Pods_GPUImage____.framework */; };
+		BF528CD84082D5F4C46B7F76 /* Pods_GPUImage________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A4977AF64DE2B9177C8FD7 /* Pods_GPUImage________.framework */; };
+		FF7B692DC68F96D38AEC2D2E /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB34798F57EDA0E089C4313E /* Pods_______.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B713CD2D4952696A7B62E63 /* Pods-GPUImage中的几种滤镜效果.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage中的几种滤镜效果.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage中的几种滤镜效果/Pods-GPUImage中的几种滤镜效果.debug.xcconfig"; sourceTree = "<group>"; };
+		1043DBB85FAD5254B006ED9D /* Pods_GPUImage____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImage____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		193CD3991FCBAD8E00351364 /* 音视频的采集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音视频的采集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193CD39C1FCBAD8E00351364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193CD39E1FCBAD8E00351364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		193CD3A11FCBAD8E00351364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		193CD3A31FCBAD8E00351364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		193CD3A61FCBAD8E00351364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193CD3A81FCBAD8E00351364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196710561FCD4D4900297993 /* GPUImage中的几种滤镜效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImage中的几种滤镜效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196710581FCD4D4900297993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1967105A1FCD4D4900297993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1967105D1FCD4D4900297993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1967105F1FCD4D4900297993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		196710621FCD4D4900297993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		196710641FCD4D4900297993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1967106C1FCD508200297993 /* GPUImage美颜相机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImage美颜相机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1967106E1FCD508200297993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		196710701FCD508200297993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		196710731FCD508200297993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		196710751FCD508200297993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		196710781FCD508200297993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1967107A1FCD508200297993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196710821FCD566D00297993 /* GPUImage处理直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImage处理直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196710841FCD566E00297993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		196710861FCD566E00297993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		196710891FCD566E00297993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1967108B1FCD566E00297993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1967108E1FCD566E00297993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		196710901FCD566E00297993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249E1DE9C133AD482058BE1A /* Pods-GPUImage美颜相机.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage美颜相机.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage美颜相机/Pods-GPUImage美颜相机.release.xcconfig"; sourceTree = "<group>"; };
+		24A4977AF64DE2B9177C8FD7 /* Pods_GPUImage________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPUImage________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2943C5F075A3569CFAC8B35F /* Pods-GPUImage美颜相机.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage美颜相机.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage美颜相机/Pods-GPUImage美颜相机.debug.xcconfig"; sourceTree = "<group>"; };
+		401105E5E732AE78C3FF936E /* Pods-GPUImage处理直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage处理直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage处理直播/Pods-GPUImage处理直播.release.xcconfig"; sourceTree = "<group>"; };
+		6B8A7C8D89AB227B9AF53030 /* Pods-音视频的采集.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音视频的采集.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音视频的采集/Pods-音视频的采集.debug.xcconfig"; sourceTree = "<group>"; };
+		83E41ACBF435DB702BD1DBD8 /* Pods-音视频的采集.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音视频的采集.release.xcconfig"; path = "Pods/Target Support Files/Pods-音视频的采集/Pods-音视频的采集.release.xcconfig"; sourceTree = "<group>"; };
+		A86A3EEF453B7CC11CE0A64F /* Pods-GPUImage处理直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage处理直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage处理直播/Pods-GPUImage处理直播.debug.xcconfig"; sourceTree = "<group>"; };
+		AB34798F57EDA0E089C4313E /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB632B70BB85F405013EEACA /* Pods-GPUImage中的几种滤镜效果.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage中的几种滤镜效果.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage中的几种滤镜效果/Pods-GPUImage中的几种滤镜效果.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193CD3961FCBAD8E00351364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B692DC68F96D38AEC2D2E /* Pods_______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196710531FCD4D4900297993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF528CD84082D5F4C46B7F76 /* Pods_GPUImage________.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196710691FCD508200297993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761EAA37298A44467360CE03 /* Pods_GPUImage____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1967107F1FCD566D00297993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAB5672E8830467E780B34C /* Pods_GPUImage____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193CD3901FCBAD8E00351364 = {
+			isa = PBXGroup;
+			children = (
+				196710831FCD566E00297993 /* GPUImage处理直播 */,
+				193CD39B1FCBAD8E00351364 /* 音视频的采集 */,
+				196710571FCD4D4900297993 /* GPUImage中的几种滤镜效果 */,
+				1967106D1FCD508200297993 /* GPUImage美颜相机 */,
+				193CD39A1FCBAD8E00351364 /* Products */,
+				AB1B3B1AD585C36628599593 /* Pods */,
+				F907FB6C684623B2BB0A911A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		193CD39A1FCBAD8E00351364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193CD3991FCBAD8E00351364 /* 音视频的采集.app */,
+				196710561FCD4D4900297993 /* GPUImage中的几种滤镜效果.app */,
+				1967106C1FCD508200297993 /* GPUImage美颜相机.app */,
+				196710821FCD566D00297993 /* GPUImage处理直播.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193CD39B1FCBAD8E00351364 /* 音视频的采集 */ = {
+			isa = PBXGroup;
+			children = (
+				193CD39C1FCBAD8E00351364 /* AppDelegate.swift */,
+				193CD39E1FCBAD8E00351364 /* ViewController.swift */,
+				193CD3A01FCBAD8E00351364 /* Main.storyboard */,
+				193CD3A31FCBAD8E00351364 /* Assets.xcassets */,
+				193CD3A51FCBAD8E00351364 /* LaunchScreen.storyboard */,
+				193CD3A81FCBAD8E00351364 /* Info.plist */,
+			);
+			path = "音视频的采集";
+			sourceTree = "<group>";
+		};
+		196710571FCD4D4900297993 /* GPUImage中的几种滤镜效果 */ = {
+			isa = PBXGroup;
+			children = (
+				196710581FCD4D4900297993 /* AppDelegate.swift */,
+				1967105A1FCD4D4900297993 /* ViewController.swift */,
+				1967105C1FCD4D4900297993 /* Main.storyboard */,
+				1967105F1FCD4D4900297993 /* Assets.xcassets */,
+				196710611FCD4D4900297993 /* LaunchScreen.storyboard */,
+				196710641FCD4D4900297993 /* Info.plist */,
+			);
+			path = "GPUImage中的几种滤镜效果";
+			sourceTree = "<group>";
+		};
+		1967106D1FCD508200297993 /* GPUImage美颜相机 */ = {
+			isa = PBXGroup;
+			children = (
+				1967106E1FCD508200297993 /* AppDelegate.swift */,
+				196710701FCD508200297993 /* ViewController.swift */,
+				196710721FCD508200297993 /* Main.storyboard */,
+				196710751FCD508200297993 /* Assets.xcassets */,
+				196710771FCD508200297993 /* LaunchScreen.storyboard */,
+				1967107A1FCD508200297993 /* Info.plist */,
+			);
+			path = "GPUImage美颜相机";
+			sourceTree = "<group>";
+		};
+		196710831FCD566E00297993 /* GPUImage处理直播 */ = {
+			isa = PBXGroup;
+			children = (
+				196710841FCD566E00297993 /* AppDelegate.swift */,
+				196710861FCD566E00297993 /* ViewController.swift */,
+				196710881FCD566E00297993 /* Main.storyboard */,
+				1967108B1FCD566E00297993 /* Assets.xcassets */,
+				1967108D1FCD566E00297993 /* LaunchScreen.storyboard */,
+				196710901FCD566E00297993 /* Info.plist */,
+			);
+			path = "GPUImage处理直播";
+			sourceTree = "<group>";
+		};
+		AB1B3B1AD585C36628599593 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A7C8D89AB227B9AF53030 /* Pods-音视频的采集.debug.xcconfig */,
+				83E41ACBF435DB702BD1DBD8 /* Pods-音视频的采集.release.xcconfig */,
+				0B713CD2D4952696A7B62E63 /* Pods-GPUImage中的几种滤镜效果.debug.xcconfig */,
+				DB632B70BB85F405013EEACA /* Pods-GPUImage中的几种滤镜效果.release.xcconfig */,
+				2943C5F075A3569CFAC8B35F /* Pods-GPUImage美颜相机.debug.xcconfig */,
+				249E1DE9C133AD482058BE1A /* Pods-GPUImage美颜相机.release.xcconfig */,
+				A86A3EEF453B7CC11CE0A64F /* Pods-GPUImage处理直播.debug.xcconfig */,
+				401105E5E732AE78C3FF936E /* Pods-GPUImage处理直播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F907FB6C684623B2BB0A911A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB34798F57EDA0E089C4313E /* Pods_______.framework */,
+				24A4977AF64DE2B9177C8FD7 /* Pods_GPUImage________.framework */,
+				1043DBB85FAD5254B006ED9D /* Pods_GPUImage____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193CD3981FCBAD8E00351364 /* 音视频的采集 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193CD3AB1FCBAD8E00351364 /* Build configuration list for PBXNativeTarget "音视频的采集" */;
+			buildPhases = (
+				0119EA0CE8B6BECAE203A80A /* [CP] Check Pods Manifest.lock */,
+				193CD3951FCBAD8E00351364 /* Sources */,
+				193CD3961FCBAD8E00351364 /* Frameworks */,
+				193CD3971FCBAD8E00351364 /* Resources */,
+				6DD4E694389DF4372FF810FA /* [CP] Embed Pods Frameworks */,
+				7736B7358EA9823624DBA9E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音视频的采集";
+			productName = "音视频的采集";
+			productReference = 193CD3991FCBAD8E00351364 /* 音视频的采集.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196710551FCD4D4900297993 /* GPUImage中的几种滤镜效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196710671FCD4D4900297993 /* Build configuration list for PBXNativeTarget "GPUImage中的几种滤镜效果" */;
+			buildPhases = (
+				622EA09E553F9877E8B3A7AA /* [CP] Check Pods Manifest.lock */,
+				196710521FCD4D4900297993 /* Sources */,
+				196710531FCD4D4900297993 /* Frameworks */,
+				196710541FCD4D4900297993 /* Resources */,
+				A05A550C7B8B05873A5A45DC /* [CP] Embed Pods Frameworks */,
+				8A64BE65B37E8D6802A0AF10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImage中的几种滤镜效果";
+			productName = "GPUImage中的几种滤镜效果";
+			productReference = 196710561FCD4D4900297993 /* GPUImage中的几种滤镜效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1967106B1FCD508200297993 /* GPUImage美颜相机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1967107B1FCD508200297993 /* Build configuration list for PBXNativeTarget "GPUImage美颜相机" */;
+			buildPhases = (
+				C1403C804E39AB821A567318 /* [CP] Check Pods Manifest.lock */,
+				196710681FCD508200297993 /* Sources */,
+				196710691FCD508200297993 /* Frameworks */,
+				1967106A1FCD508200297993 /* Resources */,
+				06ADAFE37D168CDB099F8917 /* [CP] Embed Pods Frameworks */,
+				A208D34F5897E31A1A572114 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImage美颜相机";
+			productName = "GPUImage美颜相机";
+			productReference = 1967106C1FCD508200297993 /* GPUImage美颜相机.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196710811FCD566D00297993 /* GPUImage处理直播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196710911FCD566E00297993 /* Build configuration list for PBXNativeTarget "GPUImage处理直播" */;
+			buildPhases = (
+				DD575998C0F11B3B31BB24EF /* [CP] Check Pods Manifest.lock */,
+				1967107E1FCD566D00297993 /* Sources */,
+				1967107F1FCD566D00297993 /* Frameworks */,
+				196710801FCD566D00297993 /* Resources */,
+				8E489EFD2C9CE7BE0AEC420A /* [CP] Embed Pods Frameworks */,
+				234AA78C4DF51F9DA7FFA5C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImage处理直播";
+			productName = "GPUImage处理直播";
+			productReference = 196710821FCD566D00297993 /* GPUImage处理直播.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193CD3911FCBAD8E00351364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "管章鹏";
+				TargetAttributes = {
+					193CD3981FCBAD8E00351364 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					196710551FCD4D4900297993 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1967106B1FCD508200297993 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					196710811FCD566D00297993 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 193CD3941FCBAD8E00351364 /* Build configuration list for PBXProject "音视频的采集" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193CD3901FCBAD8E00351364;
+			productRefGroup = 193CD39A1FCBAD8E00351364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196710811FCD566D00297993 /* GPUImage处理直播 */,
+				193CD3981FCBAD8E00351364 /* 音视频的采集 */,
+				196710551FCD4D4900297993 /* GPUImage中的几种滤镜效果 */,
+				1967106B1FCD508200297993 /* GPUImage美颜相机 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193CD3971FCBAD8E00351364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193CD3A71FCBAD8E00351364 /* LaunchScreen.storyboard in Resources */,
+				193CD3A41FCBAD8E00351364 /* Assets.xcassets in Resources */,
+				193CD3A21FCBAD8E00351364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196710541FCD4D4900297993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196710631FCD4D4900297993 /* LaunchScreen.storyboard in Resources */,
+				196710601FCD4D4900297993 /* Assets.xcassets in Resources */,
+				1967105E1FCD4D4900297993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1967106A1FCD508200297993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196710791FCD508200297993 /* LaunchScreen.storyboard in Resources */,
+				196710761FCD508200297993 /* Assets.xcassets in Resources */,
+				196710741FCD508200297993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196710801FCD566D00297993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1967108F1FCD566E00297993 /* LaunchScreen.storyboard in Resources */,
+				1967108C1FCD566E00297993 /* Assets.xcassets in Resources */,
+				1967108A1FCD566E00297993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0119EA0CE8B6BECAE203A80A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-音视频的采集-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06ADAFE37D168CDB099F8917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage美颜相机/Pods-GPUImage美颜相机-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage美颜相机/Pods-GPUImage美颜相机-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234AA78C4DF51F9DA7FFA5C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage处理直播/Pods-GPUImage处理直播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622EA09E553F9877E8B3A7AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImage中的几种滤镜效果-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD4E694389DF4372FF810FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-音视频的采集/Pods-音视频的采集-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音视频的采集/Pods-音视频的采集-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7736B7358EA9823624DBA9E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音视频的采集/Pods-音视频的采集-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A64BE65B37E8D6802A0AF10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage中的几种滤镜效果/Pods-GPUImage中的几种滤镜效果-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E489EFD2C9CE7BE0AEC420A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage处理直播/Pods-GPUImage处理直播-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage处理直播/Pods-GPUImage处理直播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05A550C7B8B05873A5A45DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage中的几种滤镜效果/Pods-GPUImage中的几种滤镜效果-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage中的几种滤镜效果/Pods-GPUImage中的几种滤镜效果-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A208D34F5897E31A1A572114 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage美颜相机/Pods-GPUImage美颜相机-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1403C804E39AB821A567318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImage美颜相机-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD575998C0F11B3B31BB24EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImage处理直播-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		193CD3951FCBAD8E00351364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193CD39F1FCBAD8E00351364 /* ViewController.swift in Sources */,
+				193CD39D1FCBAD8E00351364 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196710521FCD4D4900297993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1967105B1FCD4D4900297993 /* ViewController.swift in Sources */,
+				196710591FCD4D4900297993 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196710681FCD508200297993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196710711FCD508200297993 /* ViewController.swift in Sources */,
+				1967106F1FCD508200297993 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1967107E1FCD566D00297993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196710871FCD566E00297993 /* ViewController.swift in Sources */,
+				196710851FCD566E00297993 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		193CD3A01FCBAD8E00351364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193CD3A11FCBAD8E00351364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		193CD3A51FCBAD8E00351364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193CD3A61FCBAD8E00351364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1967105C1FCD4D4900297993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1967105D1FCD4D4900297993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		196710611FCD4D4900297993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196710621FCD4D4900297993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		196710721FCD508200297993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196710731FCD508200297993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		196710771FCD508200297993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196710781FCD508200297993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		196710881FCD566E00297993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196710891FCD566E00297993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1967108D1FCD566E00297993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1967108E1FCD566E00297993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193CD3A91FCBAD8E00351364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		193CD3AA1FCBAD8E00351364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193CD3AC1FCBAD8E00351364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8A7C8D89AB227B9AF53030 /* Pods-音视频的采集.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "音视频的采集/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		193CD3AD1FCBAD8E00351364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E41ACBF435DB702BD1DBD8 /* Pods-音视频的采集.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "音视频的采集/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		196710651FCD4D4900297993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B713CD2D4952696A7B62E63 /* Pods-GPUImage中的几种滤镜效果.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "GPUImage中的几种滤镜效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..GPUImage--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196710661FCD4D4900297993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB632B70BB85F405013EEACA /* Pods-GPUImage中的几种滤镜效果.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "GPUImage中的几种滤镜效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..GPUImage--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1967107C1FCD508200297993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2943C5F075A3569CFAC8B35F /* Pods-GPUImage美颜相机.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "GPUImage美颜相机/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..GPUImage----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1967107D1FCD508200297993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249E1DE9C133AD482058BE1A /* Pods-GPUImage美颜相机.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "GPUImage美颜相机/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..GPUImage----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		196710921FCD566E00297993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86A3EEF453B7CC11CE0A64F /* Pods-GPUImage处理直播.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "GPUImage处理直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..GPUImage----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196710931FCD566E00297993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401105E5E732AE78C3FF936E /* Pods-GPUImage处理直播.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92LUBU67XF;
+				INFOPLIST_FILE = "GPUImage处理直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..GPUImage----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193CD3941FCBAD8E00351364 /* Build configuration list for PBXProject "音视频的采集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193CD3A91FCBAD8E00351364 /* Debug */,
+				193CD3AA1FCBAD8E00351364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193CD3AB1FCBAD8E00351364 /* Build configuration list for PBXNativeTarget "音视频的采集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193CD3AC1FCBAD8E00351364 /* Debug */,
+				193CD3AD1FCBAD8E00351364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196710671FCD4D4900297993 /* Build configuration list for PBXNativeTarget "GPUImage中的几种滤镜效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196710651FCD4D4900297993 /* Debug */,
+				196710661FCD4D4900297993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1967107B1FCD508200297993 /* Build configuration list for PBXNativeTarget "GPUImage美颜相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1967107C1FCD508200297993 /* Debug */,
+				1967107D1FCD508200297993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196710911FCD566E00297993 /* Build configuration list for PBXNativeTarget "GPUImage处理直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196710921FCD566E00297993 /* Debug */,
+				196710931FCD566E00297993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193CD3911FCBAD8E00351364 /* Project object */;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="音视频的采集" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nva-6O-mmE">
+                                <rect key="frame" x="30" y="50" width="62" height="30"/>
+                                <state key="normal" title="开始录制"/>
+                                <connections>
+                                    <action selector="startCapture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kai-Da-uGC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNN-Mm-teD">
+                                <rect key="frame" x="283" y="50" width="62" height="30"/>
+                                <state key="normal" title="停止录制"/>
+                                <connections>
+                                    <action selector="endCapture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kmm-12-W54"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-1y-ncT">
+                                <rect key="frame" x="149" y="105" width="77" height="30"/>
+                                <state key="normal" title="切换摄像头"/>
+                                <connections>
+                                    <action selector="routateCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uUd-5B-fKw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nva-6O-mmE" firstAttribute="width" secondItem="jNN-Mm-teD" secondAttribute="width" id="2rk-8l-SLH"/>
+                            <constraint firstItem="qPy-1y-ncT" firstAttribute="top" secondItem="nva-6O-mmE" secondAttribute="bottom" constant="25" id="6rG-h8-tJo"/>
+                            <constraint firstItem="nva-6O-mmE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="CVP-g2-ZIf"/>
+                            <constraint firstItem="jNN-Mm-teD" firstAttribute="top" secondItem="nva-6O-mmE" secondAttribute="top" id="dfJ-FU-hmW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jNN-Mm-teD" secondAttribute="trailing" constant="30" id="euB-5t-IiO"/>
+                            <constraint firstItem="nva-6O-mmE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="lR4-fN-DJe"/>
+                            <constraint firstItem="qPy-1y-ncT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vXw-t3-1je"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
